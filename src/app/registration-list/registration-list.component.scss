@@ -1,0 +1,10 @@
+table {
+    width: 100%;
+}
+
+.email-column {
+    max-width: 120px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

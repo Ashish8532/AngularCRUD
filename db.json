@@ -1,0 +1,64 @@
+{
+  "enquiry": [
+    {
+      "firstName": "ASHISH",
+      "lastName": "KUMAR",
+      "email": "ashishraj916263@gmail.com",
+      "mobile": "07545061042",
+      "weight": 70,
+      "height": 175,
+      "bmi": 22.857142857142858,
+      "bmiResult": "Normal",
+      "gender": "Male",
+      "requireTrainer": "Yes",
+      "package": "Yearly",
+      "important": [
+        "Toxic Fat reduction",
+        "Energy and Endurance",
+        "Fitness"
+      ],
+      "haveGymBefore": "Yes",
+      "enquiryDate": "2023-10-26T18:30:00.000Z",
+      "id": 3
+    },
+    {
+      "firstName": "ASHISH",
+      "lastName": "KUMAR",
+      "email": "ashish.kumar17366@marwadieducation.edu.in",
+      "mobile": "07545061042",
+      "weight": 90,
+      "height": 175,
+      "bmi": 29.387755102040817,
+      "bmiResult": "Overweight",
+      "gender": "Male",
+      "requireTrainer": "Yes",
+      "package": "Quarterly",
+      "important": [
+        "Fitness"
+      ],
+      "haveGymBefore": "Yes",
+      "enquiryDate": "2023-10-26T18:30:00.000Z",
+      "id": 4
+    },
+    {
+      "firstName": "Nelish",
+      "lastName": "Kumar",
+      "email": "nelish@gmail.com",
+      "mobile": "48573948753",
+      "weight": 67,
+      "height": 159,
+      "bmi": 26.502116213757365,
+      "bmiResult": "Overweight",
+      "gender": "Male",
+      "requireTrainer": "Yes",
+      "package": "Yearly",
+      "important": [
+        "Sugar Craving Body",
+        "Fitness"
+      ],
+      "haveGymBefore": "",
+      "enquiryDate": "2023-10-27T18:30:00.000Z",
+      "id": 5
+    }
+  ]
+}

@@ -38,6 +38,7 @@
                     <mat-label>Weight</mat-label>
                     <input type="number" formControlName="weight" matInput placeholder="Weight">
                     <mat-icon matSuffix>line_weight</mat-icon>
+                    <mat-hint>Unit of weight is: Kg</mat-hint>
                 </mat-form-field>
             </div>
             <div class="col-md-6">
@@ -45,6 +46,7 @@
                     <mat-label>Height</mat-label>
                     <input [readonly]="!this.registerForm.value?.weight" type="number" formControlName="height" matInput placeholder="Height">
                     <mat-icon matSuffix><i class="fa fa-text-height" aria-hidden="true"></i></mat-icon>
+                    <mat-hint>Unit of height is: cm</mat-hint>
                 </mat-form-field>
             </div>
             <div class="col-md-6">
@@ -52,6 +54,7 @@
                     <mat-label>BMI</mat-label>
                     <input readonly type="number" formControlName="bmi" matInput placeholder="BMI">
                     <mat-icon matSuffix><i class="fa fa-sort-numeric-desc" aria-hidden="true"></i></mat-icon>
+                    <mat-hint title="Subscript Two">Unit of BMI is: Kg/m<sup>2</sup></mat-hint>
                 </mat-form-field>
             </div>
             <div class="col-md-6">
@@ -119,6 +122,7 @@
                   </mat-form-field>
             </div>
         </div>
-        <button (click)="submit()" class="mt-4" mat-raised-button color="accent">Submit</button>
+        <button *ngIf="!isUpdateActive" (click)="submit()" class="mt-4" mat-raised-button color="accent">Submit</button>
+        <button *ngIf="isUpdateActive" (click)="update()" class="mt-4" mat-raised-button color="accent">Update</button>
     </form>
 </div>
